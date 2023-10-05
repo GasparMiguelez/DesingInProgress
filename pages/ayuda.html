@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/sneakers.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Ayuda</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="recuadro" id="arriba">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Desing <br>In <br>Progress</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav rigth">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./producto.html">Producto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./tabladetalles.html">Tabla de talles</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./quienessomos.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Ayuda</a>
+                  </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <!-- Contenido principal -->
+    <main> 
+        <section>
+            <div class="frecuentep">
+                <h2 class="red">Preguntas Frecuentes</h2>
+                <dl>
+                    <dt class="red">¿Cómo puedo saber mi talle?</dt>
+                    <dd>En el menú de navegación puedes encontrar la tabla de talles, que te muestra por centímetros tu talla.</dd>
+                
+                    <dt class="red">¿Cómo cancelo una orden?</dt>
+                    <dd>Podrás cancelar la compra, siempre y cuando el pedido no se encuentre en proceso de despacho o despachado. En caso que el pedido se encuentre en proceso de despacho o despachado, deberás devolver el pedido y cuando nos llegue a nuestro depósito te contactaremos para realizar el reintegro del dinero correspondiente, por el mismo medio de pago por el cual fue abonado el pedido.</dd>
+                
+                    <dt class="red">¿Puedo abonar online y retirar en el local?</dt>
+                    <dd>Sí, se puede perfectamente. Podrás retirar tus pedidos de lunes a sábados desde las 10 am hasta las 20 pm.</dd>
+                </dl>
+            </div>
+        </section>
+
+        <section class="grid2">
+            <div>
+                <h2 class="red">Formulario de contacto</h2>
+                <form action="" method="post">
+                    <div class="mb-1">
+                      <label for="email" class="form-label red">Mail</label>
+                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="JuanPerez@gmail.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label red">Dejanos Tu mensaje</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Me gustaria que modifiquen..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn">Submit</button>
+                  </form>
+            </div>
+
+            <div>
+                <h2>Trabaja con nosotros</h2>
+                <form action="PDF" method="post" enctype="multipart/form-data">
+                    <h2>Deja tu currículum</h2>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Default file input example</label>
+                        <input class="form-control " type="file" id="formFile">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Pie de página -->
+    <footer>
+        <section class="articledos">    
+            <h2 class="red">Nuestras Redes</h2>
+            <div>    
+                <img src="../img/instagram.png" alt="instagram">
+                <a href="https://www.instagram.com/gaspar_miguelez/">Design.In.Progress</a>
+            </div>
+            <div>
+                <img src="../img/twitter.png" alt="twitter"> 
+                <a href="https://twitter.com/gaspar_miguelez">@DesignInProgress</a>  
+            </div>
+            <div>
+                <img src="../img/email.png" alt="Email">
+                <a href="https://www.google.com/intl/es-419/gmail/about/">DesingInProgress@gmail.com</a>
+            </div>
+        </section>
+        <section>
+            <div>
+                <a href="#arriba" class="color">Arriba</a> 
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
