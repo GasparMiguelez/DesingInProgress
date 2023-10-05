@@ -9,6 +9,14 @@
     text-decoration: black underline;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.red2 { 
+    color:black; 
+    text-decoration: black underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+
+}
+    
 .resaltado{ 
     font-weight: bold;
     text-decoration: #9EA58D;
